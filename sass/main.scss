@@ -1,0 +1,21 @@
+@import '_variables';
+@import '_navbar';
+@import '_pages';
+
+
+body {
+	font-family: 'Bebas Neue', sans-serif;
+	background-color: $fondoBody;
+}
+
+.tituloPrincipal {
+	text-align: center;
+	margin-top: 2%;
+	font-family: 'Bebas Neue', sans-serif;
+	animation-duration: 5s;
+	font-size: 3vw !important
+}
+
+.imagenesCarousel {
+	--bs-gutter-x: 10rem !important
+}
